@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myButton" >
+    </Button>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45.0dp">
+
+        <ViewsContainer
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:orientation="horizontal" 
+            android:id="@id/container">
+        </ViewsContainer>
+
+    </ScrollView>
+
+    <CheckBox
+        android:layout_width="396.7dp"
+        android:layout_height="687.6dp"
+        android:layout_marginTop="40.0dp"
+        android:text="YES">
+    </CheckBox>
+
+</RelativeLayout>
